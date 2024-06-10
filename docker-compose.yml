@@ -16,7 +16,7 @@ services:
     image: tomcat-lpsolve:v1
     restart: on-failure
     volumes:
-      - ./war/app-version-1.1.war:/usr/local/tomcat/webapps/app.war
+      - ./war/app-version-1.2.war:/usr/local/tomcat/webapps/app.war
     links:
       - modelStorage
       - metaInfo
